@@ -4,14 +4,14 @@ import json
 user = 'noah'
 direction = 'HOME'
 
-API_KEY = 'AIzaSyAj1zDIkQO0FlvWU1PN7LGr8RJWmQHHVj8'
+API_KEY = '<API_KEY>'
 
-NOAH_HOME = '6+Seville+Way+San+Mateo+CA'
-LAKEHOUSE = '448+Fathom+Drive+San+Mateo+CA'
-DAVID_HOME = '939+University+Ave+Palo+Alto+CA'
+NOAH_HOME = '<ADDRESS>'
+LAKEHOUSE = '<ADDRESS>'
+DAVID_HOME = '<ADDRESS>'
 BOX = '900+Jefferson+Avenue+Redwood+City+CA'
-SLACK = '155+5th+Street+San+Francisco+CA'
-LINKEDIN = '222+2nd+Street+San+Francisco+CA'
+SLACK = '<ADDRESS>'
+LINKEDIN = '<ADDRESS>'
 
 def get_travel_time(origin, destination, key):
     url = "https://maps.googleapis.com/maps/api/directions/json?origin=%s&destination=%s&key=%s" % (origin, destination, key)
